@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: "Alata", sans-serif;
 }
 
 * {
@@ -67,7 +68,6 @@ section {
 body h3 {
   font-size: 70px;
   margin-left: 100px;
-  font-family: "Alata", sans-serif;
 }
 .tit1 {
   display: block;
@@ -100,4 +100,16 @@ body h3 {
 .icons {
   float: right;
   margin-bottom: 40px;
+}
+.img-container > div {
+  background-color: aqua;
+  position: relative;
+}
+.img-container > div > .text-container {
+  position: absolute;
+  bottom: 50px;
+
+  font-size: 70px;
+  color: white;
+  font-family: "Josefin Slab", serif;
 }
