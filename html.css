@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url(images/desktop/image-hero.jpg);
+  background-repeat: no-repeat;
+  height: 60vh;
+}
+header nav ol {
+  list-style: none;
+  display: flex;
+  color: white;
+  gap: 40px;
+  float: right;
+  margin: -20px 60px;
+}
+.logo {
+  padding: 50px;
+}
+.bck2 {
+  width: 1140px;
+  margin: 100px 200px;
+  /* background: red; */
+}
+.blck {
+  position: relative;
+}
+
+.content {
+  width: 500px;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 58%;
+  right: 5%;
+}
+.content h4 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.title-1 {
+  display: block;
+}
+.title-2 {
+  display: block;
+}
+section {
+  max-width: 1900px;
+  margin: 0 auto;
+}
+.imges {
+  height: 500px;
+  display: inline-block;
+}
+.img-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+body h3 {
+  font-size: 70px;
+  margin-left: 100px;
+  font-family: "Times New Roman", Times, serif;
+}
+.tit1 {
+  display: block;
+}
+.tit2 {
+  display: block;
+}
+.tit3 {
+  display: block;
+}
+.tits {
+  padding-left: 60px;
+}
+.bckg {
+  background-color: black;
+  height: 120px;
+}
+.glo {
+  padding-top: 30px;
+  padding-left: 50px;
+}
+.lito ol {
+  color: white;
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  background-color: yellow;
+}
+.icons {
+  float: right;
+  background-color: red;
+}
